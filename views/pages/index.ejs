@@ -12,7 +12,10 @@
     <!-- Main -->
     <section id="main">
       <header>
-        <span class="avatar"><img src="images/avatar1.jpg" alt="" /></span>
+        <span class="avatar">
+          <!--<img src="images/avatar3.jpg" alt="" />-->
+          <script> document.write('<img src="images/avatar');document.write(Math.floor(Math.random() * (4 - 1) + 1));document.write('.jpg" alt="" />'); </script>
+        </span>
         <h1>Seth Rauch</h1>
         <p>Web Developer</p>
       </header>
@@ -29,7 +32,7 @@
     <!-- Footer -->
     <footer id="footer">
       <ul class="copyright">
-        <li>&copy; Seth Rauch</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        <li style="font-weight: bold;">&copy; Seth Rauch</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
       </ul>
     </footer>
 
